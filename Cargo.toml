@@ -2,6 +2,11 @@
 name = "accio"
 version = "0.1.0"
 edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Summon the source of a single Rust item by name or path, optionally from a git ref."
+repository = "https://github.com/t4lz/accio"
+keywords = ["rust-analyzer", "source", "extract", "git", "ast"]
+categories = ["development-tools"]
 
 [features]
 git = ["git2"]
