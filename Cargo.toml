@@ -1,0 +1,16 @@
+[package]
+name = "accio"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+git = ["git2"]
+
+[dependencies]
+anyhow = "1.0"
+ra_ap_ide = "0.0.301"
+syn = "2.0"
+git2 = { optional = true, version = "0.20" }
+
+[dev-dependencies]
+indoc = "2.0"
