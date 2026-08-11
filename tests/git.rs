@@ -1,6 +1,6 @@
 #![cfg(feature = "git")]
 
-use accio::find_item_path_in_file_in_git_ref;
+use hol::find_item_path_in_file_in_git_ref;
 use std::path::PathBuf;
 
 #[test]

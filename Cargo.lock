@@ -3,17 +3,6 @@
 version = 4
 
 [[package]]
-name = "accio"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "git2",
- "indoc",
- "ra_ap_ide",
- "syn",
-]
-
-[[package]]
 name = "allocator-api2"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -336,6 +325,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7382cf6263419f2d8df38c55d7da83da5c18aef87fc7a7fc1fb1e344edfe14c1"
 dependencies = [
  "hashbrown 0.15.5",
+]
+
+[[package]]
+name = "hol"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "git2",
+ "indoc",
+ "ra_ap_ide",
+ "syn",
 ]
 
 [[package]]

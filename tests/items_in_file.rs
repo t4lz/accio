@@ -1,4 +1,4 @@
-use accio::{find_item_in_file, find_item_in_file_by_name_or_path, find_item_path_in_file};
+use hol::{find_item_in_file, find_item_in_file_by_name_or_path, find_item_path_in_file};
 use indoc::indoc;
 use std::path::PathBuf;
 
